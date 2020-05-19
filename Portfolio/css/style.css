@@ -1,0 +1,230 @@
+/* import fonts from.css file */
+@import url(./font.css);
+
+@import url(./partials/variable.css);
+
+@import url(./partials/_global.css);
+/*Start Naving*/
+
+.header_area .main-menu.navbar .header_area .main-menu .navbar-brand{
+ padding: 0 2rem 0 5rem;
+  
+
+}
+
+
+   
+   
+
+ .header_area .main-menu .navbar{
+    
+   padding: 1rem 15rem;
+ }
+
+ .header_area .main-menu .nav-item .nav-link{
+   font-family: "Roboto", cursive;
+   text-transform: uppercase;
+   font-weight: 500;
+   padding: 1.7rem;
+   color: blue;
+ }
+
+ .header_area .main-menu .navbar-nav .active a{
+   background: violet;
+   -webkit-background-clip: text;
+   -webkit-text-fill: transparent;
+   background-clip: text;
+ }
+
+ .header_area .main-menu .nav-item .nav-link:hover{
+  color: red;
+  -webkit-background-clip: text;
+  -webkit-text-fill: transparent;
+  background-clip: text;
+ }
+
+
+
+
+/*End Nav*/
+
+
+.site-main .site-banner{
+  background: url(../img/background.png)no-repeat ;
+  background-position: 20% 140% ;
+  background-size: 20rem;
+}
+
+.site-main .site-banner .site-title h3{
+  padding-top: 20%;
+  font-weight: 500;
+  padding-left: 20%;
+  font-size: 2rem;
+}
+
+.site-main .site-banner .site-title h3::after{
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background:blue;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+  font-size: 5rem;
+  padding-left: 20%;
+}
+
+.site-main .site-banner .site-title h4{
+  font-size: 1.5rem;
+  padding-left: 20%;
+}
+
+.site-main .site-banner .banner-image>img{
+  padding: 5rem 0rem;
+  width: 20rem;
+
+}
+
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+.button{
+  margin-left: 5rem;
+  padding: 1rem 3.2rem;
+  font: normal 500 16px/20px var(--roboto);
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 4px;
+}
+
+.button.primary-button{
+  background: blueviolet;
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition:background .6s ease;
+  box-shadow: violet;
+
+}
+
+.button.primary-button:hover{
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: black;
+}
+
+.button.secondary-button{
+  background:whitesmoke;
+  background-clip: padding-box;
+  transition: background .6s ease;
+}
+.button.secondary-button:hover{
+  background: blueviolet;
+  color:whitesmoke;
+  box-shadow:violet;
+}
+
+.about-area{
+  padding:8rem 5rem;
+}
+.img-fluid{
+  width: 60%;
+  height:auto;
+  background-color: coral;
+}
+
+.site-main.about-area.about-title h2 >span{
+  display: block;
+  font: normal bold 49px/60px var(--roboto);
+  letter-spacing: 21px;
+
+}
+
+.site-main.about-area.about-title.paragraph >p{
+ padding: .4rem 0;
+} 
+
+.site-main .brand-area{
+  padding: 6rem 15rem;
+  margin-bottom: 4rem;
+}
+.site-main .brand-area .experience-area{
+  padding-left: 1rem;
+}
+.site-main .brand-area .experience-area span{
+  display: block;
+
+}
+.site-main .brand-area .experience-area .years-area .years{
+  font: normal bold 84px/40px;
+  color: blue;
+}
+.src{
+  width: 100%;
+  height: 50%;
+}
+.src-2{
+  width: 100%;
+  height: 50%;
+  padding-left: 10%;
+}
+
+.site-main .skills-area{
+  padding: 7rem 2rem;
+}
+.site-main .skills-area .skills-title{
+  padding: 0rem 14rem;
+}
+.site-main .skills-area .skills-title h1{
+  font-size: 35px;
+}
+.site-main> .skills-area .skills{
+  background: rgba(250, 248, 253, 0.192);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 5rem .5rem;
+  transition: box-shadow.7s ease;
+}
+.site-main> .skills-area .skills:hover{
+  box-shadow: 0px 10px 30px rgb(6, 5, 61);
+
+}
+
+.site-main .about-area .about-title p{
+  padding:1rem 7rem;
+}
+.site-main .about-area .client{
+  background: #ffffff10;
+  box-shadow: 0px 10px 30px rgba(11, 5, 61, 0.877);
+  margin:3rem 0rem;
+} 
+.site-main> .about-area .client-row:hover{
+  box-shadow: 0px 10px 30px rgb(6, 5, 61);
+
+}
+.site-main .about-area .client .client-img{
+  padding:2rem;
+}
+.site-main .about-area .client .about-client{
+  padding: 2rem;
+}
+.site-main .about-area .client .about-client h4{
+  font: normal 500 21px/20px var(--roboto);
+}
+.site-main .about-area .client .about-client p{
+  font-size: 14px;
+}
+.site-main .about-area .owl-carousel .owl-item{
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+
+}
+.site-main .about-area .owl-carousel .owl-dots .owl-dot .active span{
+  background: var(--primary-color);
+  width: 12px;
+  height: 12px;
+}
